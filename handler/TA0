@@ -1,0 +1,28 @@
+/* $VER: TA0 1.0 (21/08/2018)
+ *
+ */
+
+FileSystem      = L:ToFileSystem
+Device          = todisk.device
+Flags           = 0x5b0 /* eoofllsssss: e=mode extended, o=Side operation (01=side 0), f=flag Thomson (=1), l=sector length (10=256 bytes), s=count of sectors (10000=16 sectors) */
+Surfaces        = 1
+/*SectorsPerTrack = 8*/     /* Value of 8 because Workbench Format don't support 256 Bytes per sector */
+/*SectorSize      = 512*/   /* Workbench Format don't support 256. Then 512*8 is equal to 256*16! */
+BlocksPerTrack  = 2
+BlockSize       = 2048
+Reserved        = 0
+LowCyl          = 0
+HighCyl         = 79
+Buffers         = 16
+BufMemType      = 0
+StackSize       = 8192
+Priority        = 10
+GlobVec         = -1
+DosType         = 0x54465300
+Mount           = 1
+
+/* The Unit field is controlled by a tooltype in the TA0 icon.
+ *
+ * Unit         = 0
+ * Interleave   = 7
+ */

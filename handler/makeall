@@ -1,0 +1,5 @@
+delete #?.o
+delete #?.lnk
+delete smakefile
+mkmk TARGET L:ToFileSystem
+delete smakefile.info
