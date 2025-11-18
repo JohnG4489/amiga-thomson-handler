@@ -1,6 +1,6 @@
-# 🇫🇷 Amiga Thomson Handler – Filesystem Thomson pour AmigaOS
+# Amiga Thomson Handler – Filesystem Thomson pour AmigaOS
 
-## 🎯 Objectif
+## 🇫🇷 Objectif
 
 Ce projet fournit un **handler AmigaOS** permettant de lire le **système de fichiers Thomson** (TO8, TO9, TO9+) directement depuis AmigaOS 2.0 et supérieur.
 
@@ -48,14 +48,13 @@ Une disquette ↦ **deux unités logiques** : TA0: et TB0:
   - table unique de fichiers  
   - secteurs Thomson  
   - champ commentaire  
-- Dépend de **`todisk.device`**  
-- Lecture seule
+- Dépend de **`todisk.device`**
 
 ---
 
-# 🇬🇧 Amiga Thomson Handler – Thomson Filesystem for AmigaOS
+# Amiga Thomson Handler – Thomson Filesystem for AmigaOS
 
-## 🎯 Purpose
+## 🇬🇧 Purpose
 
 This project provides an **AmigaOS handler** that reads the **Thomson filesystem** (TO8, TO9, TO9+) directly from AmigaOS 2.0 and above.
 
@@ -102,12 +101,4 @@ One physical disk → **TA0:** and **TB0:**
   - single root file table  
   - sector-based layout  
   - internal comment field  
-- Relies on **`todisk.device`**  
-- Read-only
-
----
-
-# 🟩 Baseline recommandée  
-👉 Handler AmigaOS pour filesystem Thomson (C)
-
-# 🟦 Topics recommandés  
+- Relies on **`todisk.device`**
